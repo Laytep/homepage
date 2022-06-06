@@ -172,10 +172,23 @@ body {
 }
 
 .experiences__company-header-durability {
-    color: var(--durability-text-color);
+    color: var(--primary-text-color);
     text-align: left;
     margin-bottom: 10px;
-    font-size: 15px;
+}
+
+.experiences__company-header li {
+    margin-left: 1em;
+}
+
+.experiences__company-header-name a {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+    transition: color 0.2s ease-in;
+} 
+
+.experiences__company-header-name a:hover {
+    color: #fbd784
 }
 
 .experiences__company-header-name {
@@ -183,11 +196,10 @@ body {
     text-decoration-color: var(--text-decoration-color);
     text-decoration-line: underline;
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 13px;
 }
 
 .experiences__company-project {
-    margin-left: 15px;
     margin-bottom: 25px;
 }
 
@@ -252,4 +264,15 @@ body {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+
+.project-link {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--secondary-text-color);
+    transition: color 0.2s ease-in;
+}
+
+.project-link:hover {
+    color: #fbd784;
 }
