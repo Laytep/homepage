@@ -87,14 +87,22 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+
+.contact-info__block a:hover {
+    transform: translateY(-10%);
+}
+
 .contact-info__block--center {
+    margin-left: 250px;
     justify-content: center;
 }
+
 .contact-info__item {
     color: var(--secondary-text-color);
     text-decoration: none;
     display: flex;
     justify-content: start;
+    transition: transform 0.3s cubic-bezier(1.000, -0.010, 0.540, 1.455);
 }
 .contact-info__item:not(:last-child) {
     margin-bottom: 20px;
@@ -114,8 +122,8 @@ body {
 }
 .contact-info__avatar {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     object-fit: cover;
     border: 3px solid;
     border-color: var(--text-decoration-color);
@@ -179,6 +187,10 @@ body {
 
 .experiences__company-header li {
     margin-left: 1em;
+}
+
+.experiences__company-header ul {
+    margin-top: 8px;
 }
 
 .experiences__company-header-name a {
