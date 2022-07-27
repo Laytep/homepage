@@ -85,7 +85,7 @@ body {
 .contact-info__block {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .contact-info__block a:hover {
