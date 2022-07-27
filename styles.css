@@ -85,7 +85,7 @@ body {
 .contact-info__block {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .contact-info__block a:hover {
@@ -103,7 +103,6 @@ body {
   display: flex;
   justify-content: start;
   transition: transform 0.3s cubic-bezier(1, -0.01, 0.54, 1.455);
-  margin: 15px 0px;
 }
 
 .contact-info__item:not(:last-child) {
