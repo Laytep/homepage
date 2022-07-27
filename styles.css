@@ -81,6 +81,7 @@ body {
   color: var(--secondary-text-color);
   margin-bottom: 30px;
 }
+
 .contact-info__block {
   display: flex;
   flex-direction: column;
@@ -102,13 +103,14 @@ body {
   display: flex;
   justify-content: start;
   transition: transform 0.3s cubic-bezier(1, -0.01, 0.54, 1.455);
-  margin: 15px;
+  margin: 15px 0px;
 }
+
 .contact-info__item:not(:last-child) {
   margin-bottom: 20px;
 }
 .contact-info__item-icon-wrapper {
-  margin-right: 10px;
+  margin-right: 8px;
   width: 20px;
   display: flex;
   justify-content: center;
